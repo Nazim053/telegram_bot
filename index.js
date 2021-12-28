@@ -10,7 +10,7 @@ const baseDate = require("./const");
 
 bot.start(async (ctx) => {
   ctx.reply(
-    ` ${await ctx.replyWithPhoto({ source: "./img/AquapulseBot.png" })}
+    ` ${await ctx.replyWithPhoto({ source: "./AquapulseBot.png" })}
 Добро пожаловать ${ctx.message.from.first_name}`
       ? `Добро пожаловать ${ctx.message.from.first_name}.
 Этот телеграмм бот, подскажет вам цену и даст информацию о товаре.
