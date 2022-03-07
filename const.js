@@ -11,8 +11,6 @@ const commands = `
 `
 datePrice = {
     price_rub : { source : './opt.xlsx'},
-    price_usd : { source : './price15.1.22.xlsx'}
-
 
 }
 
