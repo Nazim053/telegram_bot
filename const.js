@@ -10,7 +10,7 @@ const commands = `
 Связаться с разработчиком  
 `
 datePrice = {
-    price_rub : { source : './opt.xlsx'},
+    price_rub : { source : './price.xlsx'},
 
 }
 
